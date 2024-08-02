@@ -101,7 +101,7 @@ public class ExpenseService {
         }
     }
 
-    private void validateExpense(Expense expense) {
+    private void validateExpense (Expense expense) {
         if (expense.getSplitMethod() == SplitMethod.PERCENTAGE) {
             validatePercentageSplit(expense);
         }
